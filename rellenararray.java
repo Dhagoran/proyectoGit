@@ -19,14 +19,18 @@ public class rellenararray {
             array[i] = entrada.nextInt(20) + 1; 
         }
     }
-        
-    public void imprimirarray() {
-    for (int i = 0; i < array.length; i++) {
-        System.out.println("Valor: " + array[i]);
-    }
     
-    public void nuevometodo1() {
-    System.out.println("Metodo 1");
-}
+    	public void sumararray() {
+    	int suma = 0;
+    	for (int i = 0; i < array.length; i++) {
+        	suma += array[i];
+    	}
+    	System.out.println("Suma total: " + suma);
+	}
+	
+	public void nuevometodo2() {
+    System.out.println("Metodo 2");
+	}
+
 }
 
