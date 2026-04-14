@@ -1,1 +1,1 @@
-# proyectoGit
+# repositorio
